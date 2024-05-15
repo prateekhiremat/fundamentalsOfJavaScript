@@ -4,7 +4,7 @@ There are 8 premitive datatypes
 2.bigint
 3.boolean
 4.string
-5.symbol: they were introduced from ES6, the are immutable in nature. They were originally introduced to avoid naming conflicts and maintain uniqness but due to there limitations like reducing readability, trickier to debug and introducing new features like let it lose popularity
+5.symbol: they were introduced from ES6, the are immutable in nature. They were originally introduced to avoid naming conflicts and maintain uniqness but due to there limitations like reducing readability, trickier to debug and introducing new features like let it lost popularity
 6.null: null is considered to be BUG/ERROR in javascript because null belongs to primitive datatype but the typeof null is object.
 7.undefined 
 8.not_defined
@@ -14,7 +14,7 @@ There are 8 premitive datatypes
 let a = 10;/* number */
 let b = 4.5;/* number */
 let c = 9999999999999999;/* 10000000000000000(round of to 15) number */
-/* Numeric literals with absolute values equal to 2^53(9007199254740992) or or greater are too large to be represented accurately as integers */
+/* Numeric literals with absolute values equal to 2^53(9007199254740992) or greater are too large to be represented accurately as integers */
 
 //! bigint
 let d = 9999999999999999n;/* 9999999999999999n bigint */

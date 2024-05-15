@@ -37,7 +37,7 @@ arrow()
 const multiplication = (a,b)=>{return a*b}
 //OR
 const sum = (a,b)=>a+b
-/* Here if we are using return statement or having nore than one line we need to enclose in braces. we can directly return single return without using return keyword(implicit return) */
+/* Here if we are using return statement or having more than one line we need to enclose in braces. we can directly return single expression without using return keyword(implicit return) */
 
 //& Higher Order Function and Callback Function: The function which accepts another function as an argument and returns a function is called HOF and the function which is passed as an argument is called callback function here it becomed asynchronous
 function higherOrderFunction(acceptsCallback,a,b){
